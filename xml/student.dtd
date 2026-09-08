@@ -1,17 +1,36 @@
+<!-- The students element contains one or more student elements. -->
 <!ELEMENT students (student+)>
-<!ELEMENT student (firstName, middleName, lastName, preferredName, studentId, email, phone, year, gpa, major, minor, status, advisor, enrollmentDate, graduationDate)>
-<!ELEMENT firstName (#PCDATA)>
-<!ELEMENT middleName (#PCDATA)>
-<!ELEMENT lastName (#PCDATA)>
-<!ELEMENT preferredName (#PCDATA)>
+<!-- Each student contains name and all required student information. -->
+<!ELEMENT student (name, studentId, email, phone, classStanding, gpa, major, minor, enrollmentStatus, advisor, initialEnrollment, graduationDate)>
+<!-- The name element contains the student's first, middle, last, and preferred names. -->
+<!ELEMENT name (first, middle, last, preferred)>
+<!-- The first element contains the student's first name. -->
+<!ELEMENT first (#PCDATA)>
+<!-- The middle element contains the student's middle name. -->
+<!ELEMENT middle (#PCDATA)>
+<!-- The last element contains the student's last name. -->
+<!ELEMENT last (#PCDATA)>
+<!-- The preferred element contains the student's preferred name. -->
+<!ELEMENT preferred (#PCDATA)>
+<!-- The studentId element contains the student's ID number. -->
 <!ELEMENT studentId (#PCDATA)>
+<!-- The email element contains the student's email address. -->
 <!ELEMENT email (#PCDATA)>
+<!-- The phone element contains the student's phone number. -->
 <!ELEMENT phone (#PCDATA)>
-<!ELEMENT year (#PCDATA)>
+<!-- The classStanding element contains the student's year in school. -->
+<!ELEMENT classStanding (#PCDATA)>
+<!-- The gpa element contains the student's GPA. -->
 <!ELEMENT gpa (#PCDATA)>
+<!-- The major element contains the student's major. -->
 <!ELEMENT major (#PCDATA)>
+<!-- The minor element contains the student's minor. -->
 <!ELEMENT minor (#PCDATA)>
-<!ELEMENT status (#PCDATA)>
+<!-- The enrollmentStatus element contains the student's enrollment status. -->
+<!ELEMENT enrollmentStatus (#PCDATA)>
+<!-- The advisor element contains the student's advisor. -->
 <!ELEMENT advisor (#PCDATA)>
-<!ELEMENT enrollmentDate (#PCDATA)>
+<!-- The initialEnrollment element contains the student's initial enrollment date. -->
+<!ELEMENT initialEnrollment (#PCDATA)>
+<!-- The graduationDate element contains the student's graduation date. -->
 <!ELEMENT graduationDate (#PCDATA)>

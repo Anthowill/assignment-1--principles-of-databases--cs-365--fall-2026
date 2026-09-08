@@ -1,19 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE students SYSTEM "student.dtd">
+
 <students>
   <student>
-    <firstName>Gordon</firstName>
-    <middleName>Matthew</middleName>
-    <lastName>Sumner</lastName>
-    <preferredName>Sting</preferredName>
+    <name>
+      <first>Gordon</first>
+      <middle>Matthew</middle>
+      <last>Sumner</last>
+      <preferred>Sting</preferred>
+    </name>
     <studentId>1234567</studentId>
     <email>sting@thepolice.com</email>
     <phone>212.123.4567</phone>
-    <year>first year</year>
+    <classStanding>first year</classStanding>
     <gpa>4.0</gpa>
     <major>Music</major>
     <minor>English</minor>
-    <status>full-time</status>
+    <enrollmentStatus>full-time</enrollmentStatus>
     <advisor>Andy Summers</advisor>
-    <enrollmentDate>08-25-1969</enrollmentDate>
+    <initialEnrollment>08-25-1969</initialEnrollment>
     <graduationDate>05-01-1973</graduationDate>
+  </student>
+
+  <student>
+    <name>
+      <first>Kim</first>
+      <middle></middle>
+      <last>Thayil</last>
+      <preferred></preferred>
+    </name>
+    <studentId>4567890</studentId>
+    <email>kim@soundgarden.com</email>
+    <phone>206.123.4567</phone>
+    <classStanding>second year</classStanding>
+    <gpa>3.0</gpa>
+    <major>Philosophy</major>
+    <minor>Music</minor>
+    <enrollmentStatus>full-time</enrollmentStatus>
+    <advisor>Chris Cornell</advisor>
+    <initialEnrollment>08-25-1978</initialEnrollment>
+    <graduationDate>05-01-1982</graduationDate>
+  </student>
+
+  <student>
+    <name>
+      <first>Saul</first>
+      <middle></middle>
+      <last>Hudson</last>
+      <preferred>Slash</preferred>
+    </name>
+    <studentId>8302438</studentId>
+    <email>slash@gnr.com</email>
+    <phone>213.456.8392</phone>
+    <classStanding>fourth year</classStanding>
+    <gpa>2.0</gpa>
+    <major>Music</major>
+    <minor>Criminal Justice</minor>
+    <enrollmentStatus>part-time</enrollmentStatus>
+    <advisor>Axl Rose</advisor>
+    <initialEnrollment>08-25-1983</initialEnrollment>
+    <graduationDate>05-01-1987</graduationDate>
+  </student>
+
+  <student>
+    <name>
+      <first>Emily</first>
+      <middle></middle>
+      <last>Kokal</last>
+      <preferred></preferred>
+    </name>
+    <studentId>2983928</studentId>
+    <email>emily@warpaint.com</email>
+    <phone>213.123.7654</phone>
+    <classStanding>third year</classStanding>
+    <gpa>3.8</gpa>
+    <major>Political Science</major>
+    <minor>Law</minor>
+    <enrollmentStatus>full-time</enrollmentStatus>
+    <advisor>Jenny Lee Lindberg</advisor>
+    <initialEnrollment>08-25-1998</initialEnrollment>
+    <graduationDate>05-01-2002</graduationDate>
+  </student>
+
+  <student>
+    <name>
+      <first>Mike</first>
+      <middle></middle>
+      <last>Inez</last>
+      <preferred></preferred>
+    </name>
+    <studentId>7645726</studentId>
+    <email>mike@aic.com</email>
+    <phone>213.444.3323</phone>
+    <classStanding>second year</classStanding>
+    <gpa>4.0</gpa>
+    <major>Business Management</major>
+    <minor>Math</minor>
+    <enrollmentStatus>full-time</enrollmentStatus>
+    <advisor>Jerry Cantrell</advisor>
+    <initialEnrollment>08-25-1984</initialEnrollment>
+    <graduationDate>05-01-1988</graduationDate>
   </student>
 </students>
